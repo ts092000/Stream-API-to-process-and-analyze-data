@@ -61,4 +61,5 @@ public class MovieRental {
         return "Statement for the rental of " + rentals.size() + " movies\n";
     }
 
+
 }

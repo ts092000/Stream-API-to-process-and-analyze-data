@@ -10,7 +10,7 @@ public class AvarageAge {
         Person p02 = new Person("Sarah", 27);
         Person p03 = new Person("James", 31);
         Person p04 = new Person("Julie", 15);
-        Person p05 = new Person("Charles", 22);
+        Person p05 = new Person("Charles", 23);
 
         List<Person> people = List.of(p01, p02, p03, p04, p05);
 
