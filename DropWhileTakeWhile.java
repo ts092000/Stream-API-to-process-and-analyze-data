@@ -11,7 +11,7 @@ public class DropWhileTakeWhile {
 
 //        Stream<Class<?>> classes =
                 Stream.<Class<?>>iterate(clzz, c -> c.getSuperclass())
-                        .takeWhile(c -> c != null)
+                        .takeWhile(c -> c != null )
                         .forEach(System.out::println);
     }
 
